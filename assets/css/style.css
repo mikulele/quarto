@@ -1,0 +1,31 @@
+*{margin:0; padding:0;}
+.carousel-inner img{
+	width: 100%;
+}
+.margin-top{
+	margin-top: 50px;
+}
+.menu-margin{
+	margin-top: 7px
+}
+.padding-content{
+	padding: 20px 0;
+}
+.menu{
+	width: 100%;
+}
+.left{
+	background: #f0f;
+	height: 50vh;
+}
+.right{
+	background: #0f0;
+}
+
+.content img{
+	width: 100%;
+}
+footer{
+	background: #ababab;
+	padding: 10px 0px;
+}
