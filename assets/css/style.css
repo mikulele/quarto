@@ -30,6 +30,7 @@ body{
 .left{
 	background: #ababab;
 	padding-bottom: 20px;
+	height: 100%;
 }
 .inners{
 	background: #131313;
