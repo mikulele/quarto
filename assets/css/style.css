@@ -48,11 +48,15 @@ body{
 	box-shadow: -2px -8px 29px -19px rgba(153, 152, 152, 0.75);
 }
 .white{
-	color: #fff;
+	color: #ffffff;
 }
 .content img{
 	width: 100%;
 	
+}
+.box{
+	background:#ffffff;
+	padding: 5px;
 }
 footer{
 	background: #131313;
