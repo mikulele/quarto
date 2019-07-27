@@ -63,41 +63,45 @@
 			</div>
 			<div class="right col-sm-9">
 				<div class="r-inners">
-					<div class="content">
+					<div class="content container">
 						<h5 class="padding-content white">Detail</h5>
 						<div class="row"><!---->
 
 							<div class="col-sm-3">
 								<div class="row box">
 									<div class="col-sm-6">
-										<div style="margin: 10px 0px; width: 100%; padding: 30px 0px; background:#000;color: white; text-align: center;">
+										<div id="h" style="cursor: pointer; margin: 10px 0px; width: 100%; padding: 30px 0px; background:#000;color: white; text-align: center;" onclick="changeIMG('h', 'b', 'j', 'k', 'go', 'gt', 'gth', 'gf');">
 											h
 										</div>
 									</div>
 									<div class="col-sm-6">
-										<div style="margin: 10px 0px; width: 100%; padding: 30px 0px; background:#000;color: white; text-align: center;">
+										<div id="b" style="cursor: pointer; margin: 10px 0px; width: 100%; padding: 30px 0px; background:#000;color: white; text-align: center;" onclick="changeIMG('b','j','k','h', 'gt', 'gth', 'gf', 'go');">
 											b
 										</div>
 									</div>
 									<div class="col-sm-6">
-										<div style="margin: 10px 0px; width: 100%; padding: 30px 0px; background:#000;color: white; text-align: center;">
+										<div id="j" style="cursor: pointer; margin: 10px 0px; width: 100%; padding: 30px 0px; background:#000;color: white; text-align: center;" onclick="changeIMG('j', 'k', 'h', 'b', 'gth', 'gf', 'go', 'gt');">
 											j
 										</div>
 									</div>
 									<div class="col-sm-6">
-										<div style="margin: 10px 0px; width: 100%; padding: 30px 0px; background:#000;color: white; text-align: center;">
+										<div id="k" style="cursor: pointer; margin: 10px 0px; width: 100%; padding: 30px 0px; background:#000;color: white; text-align: center;" onclick="changeIMG('k', 'j', 'h', 'b', 'gf', 'go', 'gt', 'gth')">
 											k
 										</div>
 									</div>
 								</div>
 							</div>
 							<div class="col-sm-9">
-								<img src="../../assets/img/Prd/markipik_2x.png" alt="" style="border: solid 1px;">
-								<div style="text-align: center">
-									<h5 class="white">Lorem</h5>
-									<p class="white">Ipsum : IDR 300.000</p>
-									<a href="#" class="btn btn-secondary">Detail</a>
-								</div>
+								<img id="go" src="../../assets/img/Prd/markipik_2x.png" alt="" style="display: block;">
+								<img id="gt" src="../../assets/img/1.jpg" alt="" style="display: none;">
+								<img id="gth" src="../../assets/img/2.jpg" alt="" style="display: none;">
+								<img id="gf" src="../../assets/img/3.jpg" alt="" style="display: none;">
+							</div>
+								<div class="clear"></div>
+							<div style="width: 100%;margin-top: 20px;">
+								<h5 class="white">Lorem</h5>
+								<p class="white">Ipsum : IDR 300.000</p>
+								<a href="#" class="btn btn-secondary">Detail</a>
 							</div>
 
 						</div><!---->
@@ -117,4 +121,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="../../assets/js/onclick.js"></script>
 </html> 
