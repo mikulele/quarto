@@ -48,15 +48,10 @@ body{
 	box-shadow: -2px -8px 29px -19px rgba(153, 152, 152, 0.75);
 }
 .white{
-	color: #ffffff;
+	color: #fff;
 }
 .content img{
 	width: 100%;
-	
-}
-.box{
-	background:#ffffff;
-	padding: 5px;
 }
 footer{
 	background: #131313;
@@ -65,4 +60,8 @@ footer{
 	-webkit-box-shadow: -2px -8px 29px -19px rgba(0,0,0,0.75);
 	-moz-box-shadow: -2px -8px 29px -19px rgba(0,0,0,0.75);
 	box-shadow: -2px -8px 29px -19px rgba(0,0,0,0.75);
+}
+.box{
+	background: #fff;
+	padding: 5px;
 }
