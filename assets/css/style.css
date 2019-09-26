@@ -28,6 +28,8 @@ body{
 .menu{
 	width: 100%;
 }
+.sosmed a img{width: 35px;}
+.sosmed{padding-top: 15px;}
 .left{
 	padding-bottom: 20px;
 }
