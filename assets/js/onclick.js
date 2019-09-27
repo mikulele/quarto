@@ -19,7 +19,18 @@ function changeIMG(one, two, three, four, gone, gtwo, gthree, gfour){
     gthree.style.display = "none";
     gfour.style.display = "none";
 }
+function ChangeSlide(slideO, slideT, miniO, miniT){
+    slideO = document.getElementById(slideO);
+    slideT = document.getElementById(slideT);
+    miniO = document.getElementById(miniO);
+    miniT = document.getElementById(miniT);
 
+
+    slideO.style.display = "block";
+    slideT.style.display = "none";
+    miniO.style.background = "#ababab";
+    miniT.style.background = "#ffffff";
+}
 function magnify(imgID, zoom){
     var img, glass, w, h, bw;
     img = document.getElementById(imgID);
