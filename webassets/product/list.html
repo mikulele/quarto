@@ -4,6 +4,7 @@
 	<title>Quarto</title>
 	<link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap.css">
+	<link rel="stylesheet" href="../../assets/css/fontawesome-free-5.11.2-web/css/all.css">
 </head>
 <body>
 
@@ -65,31 +66,26 @@
 				<div class="r-inners">
 					<div class="content">
 						<h5 class="padding-content white">Product</h5>
-						<div>
-							<div class="" style="width: 50%; margin:0 auto;">
-								<img src="../../assets/img/Prd/markipik_2x.png" alt="" style="border: solid 1px;">
-								<div style="text-align: center">
-									<h5 class="white">Lorem</h5>
-									<p class="white">Ipsum : IDR 300.000</p>
-									<a href="detail.html" class="btn btn-secondary">Detail</a>
+						<div class="bg">
+							<div class="list-kiri o-5 float-left">
+								<div class="foto-slide">
+									<div id="fsbone" class="foto-slide-besar"><img src="../../assets/img/prd/squto/all.png" alt=""></div>
+									<div id="fsbtwo" class="foto-slide-besar"><img src="../../assets/img/prd/squto/midrange.png" alt=""></div>
+									<div class="btn-left" onclick="ChangeSlide('fsbone', 'fsbtwo', 'onem', 'twom')"><i class="fa fa-angle-left"></i></div>
+									<div class="btn-right" onclick="ChangeSlide('fsbtwo', 'fsbone', 'twom', 'onem')"><i class="fa fa-angle-right"></i></div>
+								</div>
+								<div class="mini-foto o-10 menu-margin">
+									<div id="onem" onclick="ChangeSlide('fsbone', 'fsbtwo', 'onem', 'twom')" class="mini-f float-left"><img src="../../assets/img/prd/squto/all.png" alt=""></div>
+									<div id="twom" onclick="ChangeSlide('fsbtwo', 'fsbone', 'twom', 'onem')" class="mini-f float-left"><img src="../../assets/img/prd/squto/midrange.png" alt=""></div>
 								</div>
 							</div>
-							<hr style="border: 2px dashed #f05d23">
-							<div class="" style="width: 50%; margin: 0 auto;">
-								<img src="../../assets/img/Prd/artboard.png" alt="" style="border: 1px solid">
-								<div style="text-align:center">
-									<h5 class="white">Lorem</h5>
-									<p class="white">Ipsum : IDR 1.000.000</p>
-									<a href="detail.html" class="btn btn-secondary">Detail</a>
-								</div>
-							</div>
-							<hr style="border: 2px dashed #f05d23">
-							<div class="" style="width: 50%; margin: 0 auto;">
-								<img src="../../assets/img/Prd/go.png" alt="" style="border: solid 1px;">
-								<div style="text-align: center">
-									<h5 class="white">Lorem</h5>
-									<p class="white">Ipsum : IDR 983.000</p>
-									<a href="detail.html" class="btn btn-secondary">Detail</a>
+							<div class="list-kanan o-5 float-left">
+								<div class="container">
+									<h3 align="center" style="color: #fff;">Quarto Squto Series PP 361</h3>
+									<p class="pargin-important" style="color: #fff;">Harga : Rp. 999.000,-</p>
+									<p style="color: #fff;">Description :</p>
+									<p style="color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ad similique laborum reprehenderit, natus tenetur pariatur vitae totam odio voluptatem earum nulla nihil dignissimos numquam aliquam quod, quisquam illo beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus amet beatae fugiat rerum debitis. Possimus, placeat maxime ipsa tempore necessitatibus nemo dolorem qui, porro, similique magnam saepe quod consequatur ut.</p>
+									<div class="btn btn-info">Detail</div>
 								</div>
 							</div>
 						</div>
@@ -109,4 +105,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="../../assets/js/onclick.js"></script>
 </html> 
