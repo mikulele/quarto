@@ -2,9 +2,22 @@
 body{
 	background: #f1f1f1 !important;
 }
-.clear{
-	clear: both;
-}
+/*FRW Octa*/
+.o-1{width: 10%;}
+.o-2{width: 20%;}
+.o-3{width: 30%;}
+.o-4{width: 40%;}
+.o-5{width: 50%;}
+.o-6{width: 60%;}
+.o-7{width: 70%;}
+.o-8{width: 80%;}
+.o-9{width: 90%;}
+.o-10{width: 100%;}
+.float-left{float: left;}
+.float-right{float: right;}
+.clear{clear: both;}
+.margin-0auto{margin: 0 auto;}
+.pargin-important{margin: 0 !important; padding: 0;}
 .carousel-inner img{
 	width: 100%;
 }
@@ -45,6 +58,7 @@ body{
 	background: #131313;
 	padding: 20px;
 	margin-top: 20px;
+	display: inline-block;
 	-webkit-box-shadow: -2px -8px 29px -19px rgba(153, 152, 152, 0.75);
 	-moz-box-shadow: -2px -8px 29px -19px rgba(153, 152, 152, 0.75);
 	box-shadow: -2px -8px 29px -19px rgba(153, 152, 152, 0.75);
@@ -67,3 +81,45 @@ footer{
 	background: #fff;
 	padding: 5px;
 }
+
+/*List*/
+.foto-slide{
+	position: relative;
+}
+.foto-slide .foto-slide-besar {
+	background: #fff; 
+	padding: 100px 40px;
+	position: relative;
+}
+.foto-slide .btn-left{
+	position: absolute;
+	top: 45%;
+	color: #ababab;
+	opacity: .3;
+	font-size: 30px;
+	padding: 10px;
+	cursor: pointer;
+}
+.foto-slide .btn-right{
+	position: absolute;
+	top: 45%;
+	right: 0;
+	color: #ababab;
+	opacity: .3;
+	font-size: 30px;
+	padding: 10px;
+	cursor: pointer;
+}
+.foto-slide .btn-left:hover, .foto-slide .btn-right:hover{opacity: 1;}
+.mini-foto .mini-f{
+	background: #ffffff;
+	width: 80px;
+	height: 70px;
+	padding: 20px 10px;
+	margin-right: 5px;
+	cursor: pointer;
+}
+#onem{
+	background: #ababab;
+}
+#fsbtwo{display: none;}
