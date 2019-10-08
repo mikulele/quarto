@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quarto</title>
+	<link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap.css">
+	<link rel="stylesheet" href="../../assets/css/fontawesome-free-5.11.2-web/css/all.css">
+	<style>
+	.mySlides {display:none;}
+	</style>
+</head>
+<body>
+
+<header class="header">
+	<div class="qi-logo">
+		<a href="../../index.html">
+			<div class="logo-">
+				<img src="../../assets/img/icon/quartoindo.png" alt="">
+			</div>
+		</a>
+	</div>
+	<div id="demo" class="carousel slide" data-ride="carousel" style="position: relative;">
+		<ul class="carousel-indicators">
+			<li data-target="#demo" data-slide-to="0" class="active"></li>
+			<li data-target="#demo" data-slide-to="1"></li>
+			<li data-target="#demo" data-slide-to="2"></li>
+		</ul>
+		<div class="carousel-inner">
+			<div class="carousel-item active"><!--Slide One-->
+				<img src="../../assets/img/brosur/squto-series-pp.jpg" alt="Bunga" width="1100" height="600">
+				<div class="carousel-caption">
+					<h3>Bunga</h3>
+					<p>Bunga Oranye Indah</p>
+				</div>
+			</div>
+			<div class="carousel-item"><!--Slide Two-->
+				<img src="../../assets/img/brosur/squto-series-kvy.jpg" alt="Bukit" width="1100" height="600">
+				<div class="carousel-caption">
+					<h3>Bukit</h3>
+					<p>Gurun Pasri ada Bukit</p>
+				</div>
+			</div>
+			<div class="carousel-item"><!--Slide Three-->
+				<img src="../../assets/img/brosur/squto-series-al.jpg" alt="Bunga Putih" width="1100" height="600">
+				<div class="carousel-caption">
+					<h3>Bunga Putih</h3>
+					<p>Indah Banget ya</p>
+				</div>
+			</div>
+		</div>
+		<a class="carousel-control-prev" href="#demo" data-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</a>
+		<a class="carousel-control-next" href="#demo" data-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</a>
+	</div>
+</header>
+	<section class="container-fluid">
+		<div class="row BOR">
+			<div class="left col-sm-3">
+				<div class="outs">
+					<div class="inners">
+						<ul class="nav flex-column">
+							<h5 class="padding-content white">MENU</h5>
+							<li class="nav-item"><a href="../../index.html" class="menu btn btn-light menu-margin">Home</a></li>
+							<li class="nav-item menu-margin"><a href="../../about.html" class="menu btn btn-light">About Us</a></li>
+							<li class="nav-item menu-margin"><a href="../../produk.html" class="menu btn btn-light">Product</a></li>
+							<li class="nav-item menu-margin"><a href="../../gallery.html" class="menu btn btn-light">Gallery</a></li>
+							<li class="nav-item menu-margin"><a href="../../dealer.html" class="menu btn btn-light">Dealer</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="right col-sm-9">
+				<div class="r-inners">
+					<div class="content">
+						<h5 class="padding-content white"><a href="../../produk.html">Product</a> / <a href="seri.html">Seri</a> / PP</h5>
+						<div class="bg">
+
+							<div class="list-kiri o-5 float-left margin-bottom20">
+								<div class="foto-slide"><!--Buka-->
+									<div id="ones" class="w3-display-container mySlides">
+										<img src="../../assets/img/prd/squto/all.png" style="width:100%">
+									</div>
+										  
+									<div id="twos" class="w3-display-container mySlides">
+										<img src="../../assets/img/prd/squto/midbass.jpg" style="width:100%">
+									</div>
+										  
+									<div id="threes" class="w3-display-container mySlides">
+										<img src="../../assets/img/prd/squto/midrange.jpg" style="width:100%">
+									</div>
+										  
+									<div id="fours" class="w3-display-container mySlides">
+										<img src="../../assets/img/prd/squto/tweeter.jpg" style="width:100%">
+									</div>
+
+									<div id="fives" class="w3-display-container mySlides">
+										<img src="../../assets/img/prd/squto/tweeter2.jpg" style="width:100%">
+									</div>
+
+										  <button class="btn-left" onclick="plusDivs(-1)">&#10094;</button>
+										  <button class="btn-right" onclick="plusDivs(1)">&#10095;</button>
+								</div><!--Tutup-->
+								<div class="menu-margin utama-slider for-smartphone-noshow">
+									<input type="radio" name="slide" class="radio-nav" id="nav-1" checked>
+									<input type="radio" name="slide" class="radio-nav" id="nav-2">
+									<input type="radio" name="slide" class="radio-nav" id="nav-3">
+									<input type="radio" name="slide" class="radio-nav" id="nav-4">
+									<ul class="slidee">
+										<li class="slide-1">
+											<div class="pict-slide"><!--1-->
+												<img src="../../assets/img/prd/squto/all.png" alt="">
+												<div class="pict-slide-hover" onclick="ChangeSlide('ones', 'twos', 'threes', 'fours', 'fives', 'sixs', 'sevens', 'eights', 'nines', 'tens', 'elevens')"></div>
+											</div>
+											<div class="pict-slide"><!--2-->
+												<img src="../../assets/img/prd/squto/midbass.jpg" alt="">
+												<div class="pict-slide-hover" onclick="ChangeSlide('twos', 'ones', 'threes', 'fours', 'fives', 'sixs', 'sevens', 'eights', 'nines', 'tens', 'elevens')"></div>
+											</div>
+											<div class="pict-slide"><!--3-->
+												<img src="../../assets/img/prd/squto/midrange.jpg" alt="">
+												<div class="pict-slide-hover" onclick="ChangeSlide('threes', 'ones', 'twos', 'fours', 'fives', 'sixs', 'sevens', 'eights', 'nines', 'tens', 'elevens')"></div>
+											</div>
+											<div class="pict-slide"><!--4-->
+												<img src="../../assets/img/prd/squto/tweeter.jpg" alt="">
+												<div class="pict-slide-hover" onclick="ChangeSlide('fours', 'ones', 'threes', 'twos', 'fives', 'sixs', 'sevens', 'eights', 'nines', 'tens', 'elevens')"></div>
+											</div>
+											<div class="pict-slide"><!--5-->
+												<img src="../../assets/img/prd/squto/tweeter2.jpg" alt="">
+												<div class="pict-slide-hover" onclick="ChangeSlide('fives', 'ones', 'threes', 'fours', 'twos', 'sixs', 'sevens', 'eights', 'nines', 'tens', 'elevens')"></div>
+											</div>
+										</li>
+										<li class="slide-2">
+											<div class="pict-slide"><!--6-->
+												<img src="../../assets/img/prd/squto/all.png" alt="">
+												<div class="pict-slide-hover" onclick="ChangeSlide('sixs', 'ones', 'threes', 'fours', 'fives', 'twos', 'sevens', 'eights', 'nines', 'tens', 'elevens')"></div>
+											</div>
+											<div class="pict-slide"><!--7-->
+												<img src="../../assets/img/prd/squto/tweeter.jpg" alt="">
+												<div class="pict-slide-hover"></div>
+											</div>
+											<div class="pict-slide"><!--8-->
+												<img src="../../assets/img/prd/squto/all.png" alt="">
+												<div class="pict-slide-hover"></div>
+											</div>
+											<div class="pict-slide"><!--9-->
+												<img src="../../assets/img/prd/squto/all.png" alt="">
+												<div class="pict-slide-hover"></div>
+											</div>
+											<div class="pict-slide"><!--10-->
+												<img src="../../assets/img/prd/squto/all.png" alt="">
+												<div class="pict-slide-hover"></div>
+											</div>
+										</li>
+										<li class="slide-3">
+											<div class="pict-slide"><!--11-->
+												<img src="../../assets/img/prd/squto/all.png" alt="">
+												<div class="pict-slide-hover"></div>
+											</div>
+										</li>
+									</ul>
+									<div id="next" class="nav-arrow nav-next">
+										<label for="nav-1" class="nav-1"><i class="fa fa-angle-right"></i></label>
+										<label for="nav-2" class="nav-2"><i class="fa fa-angle-right"></i></label>
+										<label for="nav-3" class="nav-3"><i class="fa fa-angle-right"></i></label>
+										<label for="nav-4" class="nav-4"><i class="fa fa-angle-right"></i></label>
+									</div>
+									<div id="next" class="nav-arrow nav-prev">
+										<label for="nav-1" class="nav-1"><i class="fa fa-angle-left"></i></label>
+										<label for="nav-2" class="nav-2"><i class="fa fa-angle-left"></i></label>
+										<label for="nav-3" class="nav-3"><i class="fa fa-angle-left"></i></label>
+										<label for="nav-4" class="nav-4"><i class="fa fa-angle-left"></i></label>
+									</div>
+								</div>
+							</div>
+
+							<div class="list-kanan o-5 float-left">
+								<div class="container">
+									<h3 style="color: #fff;">Squto Series PP 361</h3>
+									<p class="pargin-important" style="color: #fff;">Harga : Rp. 0,-</p>
+									<p style="color: #fff;">Description :</p>
+									<p style="color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ad similique laborum reprehenderit, natus tenetur pariatur vitae totam odio voluptatem earum nulla nihil dignissimos numquam aliquam quod, quisquam illo beatae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus amet beatae fugiat rerum debitis. Possimus, placeat maxime ipsa tempore necessitatibus nemo dolorem qui, porro, similique magnam saepe quod consequatur ut.
+									<span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem animi at sapiente cum. Eaque maxime est non voluptatibus atque provident enim dolor voluptate! Dolore repellendus corporis, quaerat fugiat blanditiis quos.
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum ea nulla, facere quia sapiente repellat? Earum soluta quo ipsam nihil, laudantium id quae modi adipisci laborum, delectus voluptate esse est.
+									</span> </p>
+									<!--<div class="btn btn-info pointer">Detail</div>-->
+								</div>
+							</div>
+							<div class="clear white">
+								<h3>Lorem2</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit sint, veniam quod beatae magnam quae iusto molestiae non veritatis officiis. Ullam, numquam eveniet soluta vel et reprehenderit molestias minima amet.
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum reprehenderit tempore exercitationem sed odio quibusdam deserunt laudantium, iste esse fuga debitis consequatur officia error voluptas ipsam architecto minima similique!
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus eos laborum reiciendis voluptates, consequuntur id hic, porro laboriosam ex non, sunt ad amet qui accusantium doloribus sint corporis saepe doloremque.
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dicta sint laborum magni alias sit repellat rem, debitis facilis. Nihil, unde quam sapiente ipsum odit explicabo tenetur ipsam distinctio ut!
+									Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam, eos nesciunt? Veniam ab, sunt eos neque sed amet. Recusandae enim tenetur ad! Molestias dolor ratione aliquid iste accusantium distinctio vitae!
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quisquam architecto inventore odit nemo a corrupti, ipsum pariatur ullam. Vitae odio sunt cum libero ea tempora nihil nobis eveniet magni.
+									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam possimus corrupti impedit deserunt praesentium, iste, ipsam assumenda rem quisquam natus amet repudiandae hic vitae laudantium. Fugiat optio vero quisquam ducimus.
+									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit ratione tenetur error. Voluptate doloremque nihil maxime similique accusamus. Alias id fugiat quasi aut. Repellat quis rem modi, praesentium minus consequuntur.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="clear"></div>
+<footer>
+	<div class="footer col-sm-11" style="margin: 0 auto;">
+		<span>Copyright &copy; <a href="#">2019 Quarto</a> All Right Reserved.</span>
+		<span style="float: right"><img src="../../assets/img/icon/quartoindo.png" width="100px" alt=""></span>
+	</div>
+</footer>
+</body>
+<script>
+		var slideIndex = 1;
+		showDivs(slideIndex);
+		
+		function plusDivs(n) {
+		  showDivs(slideIndex += n);
+		}
+		
+		function showDivs(n) {
+		  var i;
+		  var x = document.getElementsByClassName("mySlides");
+		  if (n > x.length) {slideIndex = 1}
+		  if (n < 1) {slideIndex = x.length}
+		  for (i = 0; i < x.length; i++) {
+			 x[i].style.display = "none";  
+		  }
+		  x[slideIndex-1].style.display = "block";  
+		}
+		</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="../../assets/js/onclick.js"></script>
+</html> 
