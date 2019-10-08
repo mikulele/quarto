@@ -19,21 +19,33 @@ function changeIMG(one, two, three, four, gone, gtwo, gthree, gfour){
     gthree.style.display = "none";
     gfour.style.display = "none";
 }
-function ChangeSlide(slideO, slideT, miniO, miniT){
-    slideO = document.getElementById(slideO);
-    slideT = document.getElementById(slideT);
-    miniO = document.getElementById(miniO);
-    miniT = document.getElementById(miniT);
+function ChangeSlide(one, two, three, four, five, six, seven, eight, nine, ten, eleven){
+    one = document.getElementById(one);
+    two = document.getElementById(two);
+    three = document.`getElementById`(three);
+    four = document.getElementById(four);
+    five = document.getElementById(five);
+    six = document.getElementById(six);
+    seven = document.getElementById(seven);
+    eight = document.getElementById(eight);
+    nine = document.getElementById(nine);
+    ten = document.getElementById(ten);
+    eleven = document.getElementById(eleven);
 
-
-    slideO.style.display = "block";
-    slideT.style.display = "none";
-    miniO.style.background = "#ababab";
-    miniT.style.background = "#ffffff";
+    one.style.display = "block";
+    two.style.display="none";
+    three.style.display = "none";
+    four.style.display = "none";
+    five.style.display = "none";
+    six.style.display = "none";
+    seven.style.display = "none";
+    eight.style.display = "none";
+    nine.style.display = "none";
+    ten.style.display = "none";
+    eleven.style.display = "none";
 }
 function magnify(imgID, zoom){
     var img, glass, w, h, bw;
     img = document.getElementById(imgID);
-
-    glass = document.createElement(DIV)
+    glass = document.createElement(DIV);
 }
